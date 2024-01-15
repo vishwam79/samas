@@ -1,0 +1,233 @@
+.container{
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+    width: 100%;
+    overflow: auto;
+    margin-bottom: 3rem;
+}
+
+.comp-container1{
+    width: 100%;
+    overflow: auto;
+    margin-bottom: 3rem;
+}
+
+.container1{
+       display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.react-loader-spinner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10rem;
+}
+
+.auth-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://img.freepik.com/free-vector/organic-white-backgroun_1199-324.jpg");
+    height: 100vh;
+}
+
+.auth-form form{
+    padding: 2.5rem;
+    background-color: rgb(8, 30, 115);
+    color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px black;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    min-width: 25%;
+}
+
+.form-heading{
+    align-self: center;
+    font-size: large;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.auth-form form div{
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.auth-form form input{
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid coral;
+    color: black;
+}
+/* 
+.auth-buttons{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    align-self: center;
+} */
+
+.auth-buttons button{
+   margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.submit-button{
+    border: none;
+    padding: 0.5rem;
+    border-radius: 5px;
+    background-color: green;
+    border: 1px solid green;
+    color: white;
+    cursor: pointer;
+}
+
+.submit-button:hover{
+    box-shadow: 1px 1px 1px white;
+}
+
+.forgot-button{
+    border: none;
+    padding: 0.5rem;
+    border-radius: 5px;
+    background-color: red;
+    border: 1px solid red;
+    color: white;
+    cursor: pointer;
+}
+
+.forgot-button:hover{
+    box-shadow: 1px 1px 1px white;
+}
+
+/* temporary styling sidebar */
+.sidebar{
+    position: absolute;
+    margin: 0.5rem;
+    background-color: white;
+    padding: 1rem;
+    color: black;
+    font-weight: bold;
+    border-radius: 8px;
+    z-index: 100;
+    min-height: 37rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-around; */
+}
+.sidebar span{
+    margin-left: 0.5rem;
+}
+.sidebar button{
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 0.5rem;
+    color: gray;
+}
+
+.sidebar li{
+    border-bottom: 1px solid #ccc;
+}
+
+.sidebar .first-div{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar .first-div img{
+    height: 5.5rem;
+    width: 5.5rem;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.sidebar .last-div{
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar li{
+  margin: 0.5rem 0rem;
+  /* border-bottom: 1px solid black; */
+  padding: 0rem 0.15rem;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.li-active{
+    color: red;
+    margin-left: 0.5rem;
+}
+
+
+.heading{
+    margin-bottom: 1rem;
+    font-size: 28px;
+    font-weight: bold;
+    /* letter-spacing: 0.15rem; */
+    /* color: white; */
+    font-family: sans-serif;
+    /* background-color: rgb(199, 199, 199); */
+    padding: 0.25rem 1rem;
+    border-radius: 5px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 2rem;
+}
+
+
+.image-upload-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    gap: 1rem;
+}
+.image-upload-container p{
+    display: flex;
+    padding: 0.5rem;
+}
+.upload-image{
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+}
+
+.uploaded-image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.uploaded-image img{
+    height: 7rem;
+    width: 7rem;
+    background-color: rgb(156, 156, 156);
+    border-radius: 8px;
+}
+
+@media (max-width: 400px)
+{
+    .upload-image{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+    }
+}

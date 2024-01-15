@@ -1,0 +1,62 @@
+.global-container{
+    max-height: 91vh;
+    /* min-height: 100vh; */
+    left: 0;
+}
+.page-comp{
+    overflow: auto;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+}
+
+/* Style the scrollbar track for .page-comp */
+.page-comp::-webkit-scrollbar {
+    width: 8px; 
+    background-color: #ffffff; /* Background color of the scrollbar track */
+  }
+  
+  /* Style the scrollbar thumb (the draggable part) for .page-comp */
+  .page-comp::-webkit-scrollbar-thumb {
+    /* background-color: rgb(20 45 93); */
+    background-color: coral;
+  }
+  
+  /* Style the scrollbar corner (between vertical and horizontal scrollbar) for .page-comp */
+  .page-comp::-webkit-scrollbar-corner {
+    background-color: transparent;
+  }
+
+  .pagination-section{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  @media(max-width: 768px)
+  {
+    .pagination-section{
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+  }
+  .pagination-handle-section{
+    color: gray;
+  }
+  .pagination-handle-section .prev-button
+  {
+    background-color: #50bfff;
+    padding: 0.25rem 0.5rem;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    color: white;
+  }
+  .pagination-handle-section select{
+    padding: 0.25rem 0.5rem;
+  }
+  .pagination-handle-section .next-button{
+    background-color: #50bfff;
+    padding: 0.25rem 0.5rem;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: white;
+  }

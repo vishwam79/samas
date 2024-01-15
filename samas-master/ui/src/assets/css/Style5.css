@@ -1,0 +1,133 @@
+/* Lead Generation */
+.lead-generation-container{
+    background-color: white;
+    color: black;
+    padding: 1rem;
+    margin: 0.5rem;
+    /* border: 5px solid rgb(25, 69, 114); */
+    min-height: 35rem;
+    margin-bottom: 3rem;
+}
+
+.lead-generation-heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(25, 69, 114);
+    background-color: rgb(0, 54, 98);
+    color: white;
+    padding: 0rem 0.5rem;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.15rem;
+}
+
+.lead-generation-person-info-section{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+    border: 2px solid green;
+    border-radius: 5px;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+.lead-generation-person-info-section-heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.15rem;
+    background-color:rgb(26, 130, 179);
+    color: white;
+    padding: 0rem 0.5rem;
+}
+.lead-generation-person-info-section-info{
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0rem 1rem;
+}
+.lead-generation-person-info-section-info p{
+    display: flex;
+    font-size: large;
+    font-weight: 400;
+}
+.lead-generation-person-info-section-info p i{
+    color: coral;
+    margin: 0rem 0.5rem;
+}
+.lead-generation-person-info-section-info p span{
+    font-weight: 600;
+    margin-right: 0.5rem;
+    color: coral;
+}
+
+.lead-generation-header{
+    border: 1px solid green;
+    border-radius: 5px;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(31, 135, 183);
+    font-size: large;
+    font-weight: 500;
+}
+.activeTab{
+    border-bottom: 3px solid rgb(163, 163, 163);
+}
+.lead-generation-header button{
+    color: white;
+    border: none;
+}
+
+.lead-generation-table{
+    overflow: auto;
+    margin-bottom: 2rem;
+}
+.lead-generation-table th, .lead-generation-table td{
+    word-wrap:break-word;
+    width: 13rem;
+}
+
+.lead-allocation-form{
+    overflow: auto;
+    margin-top: 2rem;
+}
+.lead-allocation-form textarea{
+    color: gray;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 5px;
+    margin-right: 1rem;
+}
+.lead-allocation-form textarea:focus{
+    border: 2px solid coral;
+}
+.lead-allocation-form input{
+    color: gray;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0.15rem;
+    border-radius: 5px;
+    outline: none;
+}
+.lead-allocation-form input:focus{
+    border: 2px solid coral;
+}
+.lead-allocation-form-container{
+    border: 3px solid rgb(42, 156, 213);
+}
+
+td input, td textarea{
+    outline: none;
+}
+td input:focus, td textarea{
+    outline: none;
+}

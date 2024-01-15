@@ -1,0 +1,294 @@
+/* desing a table */
+.table {
+    border: 3px solid rgb(61, 203, 255);
+    margin-right: 0.5rem;
+    background-color: white;
+    width: 100%;
+    /* max-width: fit-content;
+    max-height: fit-content; */
+    min-width: 1000px;
+    overflow: auto;
+}
+
+.table_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #00c8ff;
+}
+
+.table_header p {
+    font-size: large;
+    font-weight: bold;
+    letter-spacing: 0.25rem;
+    color: white;
+}
+
+.table_header button {
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 10px;
+    color: #fff;
+    background-color: aqua;
+}
+
+.add_new {
+    padding: 10px 20px;
+    color: aliceblue;
+    background-color: aqua;
+}
+
+.table_header input {
+    padding: 10px 20px;
+    margin: 0 10px;
+    outline: none;
+    border: 1px solid aqua;
+    border-radius: 6px;
+    color: aqua;
+}
+
+
+
+table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    /* max-width: fit-content;
+    max-height: fit-content; */
+    width: 100%;
+}
+
+thead th {
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    color: gray;
+    font-size: 15px;
+}
+
+th,
+td {
+    padding: 10px 20px;
+    text-align: center;
+    border: 1px solid gray;
+}
+
+td img {
+    height: 60px;
+    width: 60px;
+    object-fit: cover;
+    border-radius: 15px;
+    border: 5px solid gray;
+}
+
+/* tr:hover td{
+    color: gray;
+    cursor: pointer;
+    background-color: rgb(229, 250, 255);
+} */
+
+::placeholder {
+    color: aqua;
+}
+
+::-webkit-scrollbar {
+    height: 5px;
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+::-webkit-scrollbar-thumb {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+
+
+/* designing a form */
+.form-container {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border: 2px solid rgb(186, 186, 186);
+    border-radius: 5px;
+    margin-bottom: 3rem;
+    min-width: 50%;
+
+    font-size: 15px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: gray;
+
+    background-color: white;
+
+    box-shadow: 1px 1px 1px rgb(206, 206, 206);
+    /* margin-right: 1rem; */
+}
+
+.form-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: green;
+    font-size: large;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.form-field {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+}
+
+.form-container label {
+    margin-left: 1rem;
+    font-size: large;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: gray;
+}
+
+
+.form-buttons button {
+    background-color: green;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-buttons button:hover {
+    box-shadow: 1px 1px 1px gray;
+}
+
+.form-buttons button:nth-child(1) {
+    background-color: red;
+}
+
+.form-container textarea {
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 0.25rem;
+    /* background: transparent; */
+}
+
+.form-container textarea:focus {
+    outline: none;
+}
+
+.form-container input {
+    border: 1px solid gray;
+    color: gray;
+    margin: 0;
+    /* background: transparent; */
+    padding: 0.25rem;
+}
+
+.form-container input {
+    margin-right: 1rem;
+}
+
+.text-area-heading {
+    margin-left: 1rem;
+    font-size: large;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: gray;
+}
+
+.form-field .radio input {
+    height: 1.15rem;
+    width: 1.15rem;
+    margin: 0;
+}
+
+.toggle-sidebar-button {
+    padding: 1rem;
+    margin-left: 2rem;
+    font-size: 20px;
+    font-weight: bold;
+    /* display: inline;
+    margin-top: 1rem; */
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 1rem;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: rgb(20 45 93);
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+/* for small devices */
+.navbar-toggle-test {
+    position: absolute;
+    right: 3rem;
+    top: 1.5rem;
+}
+@media (min-width: 1024px) {
+    .navbar-toggle-test {
+        display: none;
+        z-index: 1;
+    }
+}
+/* for big devices */
+.navbar-toggle-test-second {
+    position: absolute; 
+    right: 3rem;
+    top: 1.5rem;
+}
+.navbar-toggle-test-second button i{
+    color: white;
+}
+@media (max-width: 1024px) {
+    .navbar-toggle-test-second {
+        display: none;
+        z-index: 1;
+    }
+}
+
+
+.select-tl-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.select-tl-section div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* block-unblock button class */
+.activeStatusButton{
+    background-color: red;
+    color: white;
+    padding: 0.25rem;
+    border-radius: 5px;
+}
+.activeStatusButton:hover{
+    box-shadow: 1px 1px 1px red;
+}
+.blockedStatusButton{
+    background-color: gray;
+    color: white;
+    padding: 0.25rem;
+    border-radius: 5px;
+}
+.blockedStatusButton:hover{
+    box-shadow: 1px 1px 1px gray;
+}
